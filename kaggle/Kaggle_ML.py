@@ -110,7 +110,7 @@ def get_mae(max_leaf_nodes, train_X, val_X, train_y, val_y):
 
 # *****************************************************************
 # I can use this code to predict the optimum value for a decision tree
-# I can finf the no. of leaf nodes that generates the smallest error
+# I can find the no. of leaf nodes that generates the smallest error
 
 candidate_max_leaf_nodes = [5, 25, 50, 100, 250, 500]
 # Write loop to find the ideal tree size from candidate_max_leaf_nodes
